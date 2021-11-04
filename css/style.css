@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.safe {
+    width: 250px;
+    height: 250px;
+    margin: 10% auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/download.jfif);
+    background-size: cover;
+    background-position-x: 20%;
+}
+
+.top-container {
+    width: 60%;
+    padding: 3px;
+    margin-bottom: 25%;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    padding: 3px;
+    background-color: white;
+    margin-top: 25%;
+    text-align: center;
+}
